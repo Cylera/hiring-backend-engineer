@@ -5,15 +5,11 @@ import math
 import random
 import statistics
 import time
-from typing import Generator, List, Dict
+from typing import Generator, List
 import requests
 
-from entities import EventType, AddEvent, CheckoutEvent, Customer, Item
+from entities import EventType, AddEvent, CheckoutEvent, Customer, Item, RegisterType
 from progressbar import ProgressBar
-
-
-# Maps each register to a list of items, where each item is represented by its customer ID
-RegisterType = Dict[int, List[int]]
 
 
 class EventGenerator:

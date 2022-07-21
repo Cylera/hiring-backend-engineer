@@ -1,4 +1,4 @@
-from typing import Union
+from typing import Union, Dict, List
 import dataclasses
 
 
@@ -51,3 +51,7 @@ class CheckoutEvent:
 
 
 EventType = Union[AddEvent, CheckoutEvent]
+
+
+# Maps each register to a list of items, where each item is represented by its customer ID
+RegisterType = Dict[int, List[int]]
