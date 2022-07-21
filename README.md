@@ -21,6 +21,10 @@ Additionally, you must handle the scenario where a shopper checks out and their 
 - You can assume there are 25 registers.
 - The Makefile is provided for your convenience and is optional. However, if your API cannot start using the Makefile's provided "make api" target then you must provide instructions for starting it.
 
+## Example output
+
+![image](https://user-images.githubusercontent.com/11721593/180261327-4bfa2a77-0eca-4a28-aa6a-2fd9dc2cdfc6.png)
+
 ## Scoring Criteria
 
 - Code quality
